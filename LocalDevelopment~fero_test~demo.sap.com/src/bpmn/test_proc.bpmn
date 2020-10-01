@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/glx/ide' i='1' v='2.0.0'/>
+<C n='sap.com/tc/esmp/model/xsd1' i='2' v='1.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='3' v='2.0.0'/>
+<C n='sap.com/tc/moin/util' i='4' v='1.0.0'/>
+<M c='2' q='XSD1.XsdComplexTypeDefinition' i='469C6D4001D5DA3CD6A340A7386DB365661C1178' ova='attributes'/>
+<M c='2' q='XSD1.XsdModelGroup' i='469C6D4007F20F8124A0489617CEAAA4FC3F33B2' ova='attributes'/>
+<M c='2' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='2' q='XSD1.dom.ChildsOfDomNode' i='469C6D40613622D8441C441A26178D080838F852' se='1' ce='1' oe='0'/>
+<M c='2' q='XSD1.key.QName' i='469C6D40679C1DE1F8EA4FE11855D305A69C2810'/>
+<M c='2' q='XSD1.dom.DomText' i='469C6D407EF59150AAB5477F1D8B918A40FEB328'/>
+<M c='2' q='XSD1.dom.DomAttribute' i='469C6D408272B53D2AC84E6D0570A7CA49DC813B'/>
+<M c='2' q='XSD1.XsdParticle' i='469C6D4085546763E30A4AD433C8EC4CA6CDE116' ova='attributes'/>
+<M c='2' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='2' q='XSD1.ContentForParticle' i='469C6D4098BBD57540A74F522A7BCCBAA2B5A8C3' se='0' ce='0' oe='-1'/>
+<M c='2' q='XSD1.ContentForComplexTypeDefinition' i='469C6D40ABCACE61F92C445C0CBA9A980D1E9C13' se='0' ce='0' oe='-1'/>
+<M c='2' q='XSD1.BaseTypeDefinitionForComplexTypeDefinition' i='469C6D40DE39D6DC759E49DD25E18652EE32DB38' se='0' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.StartEvent' i='46F2595C9C343BC4676C11DCAF03001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.EndEvent' i='46F2595C9C343BC7676C11DC91F3001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.SequenceConnector' i='46F2595C9C3685B5676C11DCC52A001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.Lane' i='46F2595C9C38F6A9676C11DCC39E001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.Pool' i='46F2595C9C38F6AF676C11DCA309001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.DataObject' i='46F2595C9C38F6BB676C11DC8B8C001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.SourceOfIncomingConnectors' i='46F2595C9C40229A676C11DC987E001321CBD1B1' se='0' ce='-1' oe='1'/>
+<M c='1' q='Galaxy.Workflow.TargetOfOutgoingConnectors' i='46F2595D9C429390676C11DCA715001321CBD1B1' se='0' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.InputMappingOfMappableObject' i='46F2595D9C4293A5676C11DC9722001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.OutputMappingOfMappableObject' i='46F2595D9C4293A8676C11DC989D001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.Mapping' i='46F2595D9C50C467676C11DC86D5001321CBD1B1'/>
+<M c='1' q='Galaxy.Mapping.MappingPart' i='46F2595D9C50C46D676C11DCB3E6001321CBD1B1'/>
+<M c='1' q='Galaxy.Mapping.MappingContainsMappingParts' i='46F2595D9C50C471676C11DC818B001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Mapping.MappingPartContainsExpression' i='46F2595D9C50C474676C11DCCC94001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasChildren' i='46F2595D9C50C477676C11DC8D58001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasTarget' i='46F2595D9C50C47A676C11DC9E55001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.Expression' i='46F2595D9C50C47E676C11DCCC45001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.Literal' i='46F2595D9C533562676C11DCAB37001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.Reference' i='46F2595D9C53356C676C11DCC4CF001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocation' i='46F2595D9C533572676C11DC93A9001321CBD1B1'/>
+<M c='1' q='Galaxy.Rule.LiteralHasSimpleDataType' i='46F2595D9C53357C676C11DCAA3E001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.ExpressionHasSteps' i='46F2595D9C55A661676C11DC8524001321CBD1B1' se='1' ce='1' oe='0'/>
+<M c='1' q='Galaxy.Rule.ReferencePointToXsdFeature' i='46F2595D9C55A667676C11DCC2A6001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocationHasParameterMapping' i='46F2595D9C55A66D676C11DCC7B9001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ProcessRole' i='46FB5931CCE777636CC911DC9732001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.LaneHasScopeObjects' i='470236D16D5A01C270E111DCC009001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ScopeContainsScopeObjects' i='470236D16D5A01C570E111DCA61B001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.TextVariable' i='470C8B047DB49570770911DCA4C8001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.LaneProcessRole' i='470C8B047DB49577770911DC939F001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.ViewContainsMapping' i='470C8B047DBBC162770911DCB593001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.MappingActivity' i='47136A723182C3317B2211DCAFC1001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.Collaboration' i='47B949B5451A9AD4DE0011DCBE75001321CBD1B1'/>
+<M c='1' q='Galaxy.Workflow.CollaborationContainsPools' i='47B949B5452681B2DE0011DCC0D3001321CBD1B1' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.CatchEventContainsExpression' i='47BEE014D66DE12BE15411DCAAAC001321CBD1B1' se='0' ce='0' oe='-1'/>
+<M c='1' q='Galaxy.Rule.FunctionInvocationHasFunctionInterface' i='47BEE014D680F3FAE15411DC9C2B001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.ThrowEventHasResult' i='47C2BAF30EC280A2E3A111DCA67B001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.CatchEventHasTrigger' i='47C2BAF30EC280A5E3A111DC9D40001321CBD1B1' se='1' ce='-1' oe='-1'/>
+<M c='1' q='Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration' i='47C2D91202E622C2E3B311DCC680001558C33B4F' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.NSPrefix' i='48E1FDC69CCEF8458ED911DDC75D0019993D0295'/>
+<M c='1' q='Galaxy.Mapping.MappingContainsNamespacePrefixes' i='48E1FDC69CD3B3308ED911DDA85D0019993D0295' se='1' ce='1' oe='-1'/>
+<M c='4' q='properties.PropertyBag' i='493E63563C546320C5EC11DD9396001999375840'/>
+<M c='1' q='Galaxy.Mapping.MappingPartConfiguration' i='E0632E0103EF6C1C83C911E184D1002710AA9C90'/>
+<M c='1' q='Galaxy.Mapping.MappingPartContainsConfiguration' i='E0632E0103EFEA6083C911E1C94F002710AA9C90' se='1' ce='1' oe='-1'/>
+<M c='1' q='Galaxy.Mapping.MappingPartHasQName' i='E0632E015719E9D44FC011E093177A79EC170605' se='1' ce='1' oe='-1'/>
+<properties.PropertyBag m:c='4' m:i='E002CFD7474B430AD33411EA892C54EE75C3206F' id='PartitionCreationInfo'>
+<properties key='creatorId' value='com.sap.glx.ide'/>
+<properties key='creatorVersion' value='2.0.0'/>
+<properties key='OriginalDCName' value='fero_test'/>
+<properties key='OriginalDCVendor' value='demo.sap.com'/>
+</properties.PropertyBag>
+<Galaxy.Workflow.DataObject m:c='1' m:i='E0E14F86576163E5D33411EA9BF954EE75C3206F' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Data_Object_0' resType='generaltext' translate='false' transUnitId='5761A71FD33411EAAB3D54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='5761AF35D33411EA96BE54EE75C3206F'/>
+</Galaxy.Workflow.DataObject>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E14F865761AF36D33411EAC6BE54EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='Data_Object_0' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.MappingActivity m:c='1' m:i='E0E14F865BF89E6BD33411EAA7C554EE75C3206F' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Mapping 0' resType='generaltext' translate='false' transUnitId='5BF937C5D33411EABFB154EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='5BFA584DD33411EABFC154EE75C3206F'/>
+</Galaxy.Workflow.MappingActivity>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E14F865BFA584ED33411EAA6EA54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Mapping 0_InputMapping' resType='generaltext' translate='false' transUnitId='5BFA584FD33411EA8D1854EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E14F865BFA83F5D33411EAC6CE54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Mapping 0_OutputMapping' resType='generaltext' translate='false' transUnitId='5BFA83F6D33411EAB62A54EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Workflow.SequenceConnector m:c='1' m:i='E0E14F865C05F9E1D33411EAB31F54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='' resType='generaltext' translate='false' transUnitId='5C060976D33411EABF9554EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='5C060977D33411EA980B54EE75C3206F'/>
+</Galaxy.Workflow.SequenceConnector>
+<Galaxy.Mapping.NSPrefix m:c='1' m:i='E0E14F86716295F3D33411EACED854EE75C3206F' prefix='xsd' namespace='http://www.w3.org/2001/XMLSchema'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E14F86716303D0D33411EAB23A54EE75C3206F' category='set' enabled='true' expander='currentNode' transformer='getValue'/>
+<XSD1.key.QName m:c='2' m:i='E0E14F8671636EDBD33411EAC65054EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='Data_Object_0'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E14F8671641264D33411EA99A154EE75C3206F' stringExpression='&quot;Hello&quot;'/>
+<Galaxy.Mapping.MappingPartConfiguration m:c='1' m:i='E0E14F867164DF18D33411EAA1F054EE75C3206F' targetTextNode='false' hidden='false'/>
+<Galaxy.Rule.Literal m:c='1' m:i='E0E14F8671653375D33411EABA0754EE75C3206F' value='Hello'/>
+<Galaxy.Workflow.Collaboration m:c='1' m:i='E0E1B8C6474B821FD33411EAC76954EE75C3206F' nameTranslatable='true' documentationTranslatable='true' excludedFromBuild='false' principalPropagationBehavior='none'>
+<name maxWidth='255' originalText='test_Proc' resType='generaltext' translate='true' transUnitId='474C3387D33411EA973D54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='474C5ECDD33411EA892F54EE75C3206F'/>
+</Galaxy.Workflow.Collaboration>
+<Galaxy.Workflow.Pool m:c='1' m:i='E0E1B8C6474CFD2FD33411EA819754EE75C3206F' nameTranslatable='true' documentationTranslatable='true' active='true' identifier='demo.sap.com/fero_test/test_Proc/test_Proc' boundaryVisible='false'>
+<name maxWidth='255' originalText='test_Proc' resType='generaltext' translate='false' transUnitId='474DDBDFD33411EAAEFC54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='474E2B6CD33411EA930F54EE75C3206F'/>
+<subject maxWidth='255' originalText='' resType='generaltext' translate='true' transUnitId='4751E24FD33411EA989954EE75C3206F'/>
+<description maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='47520960D33411EAA80854EE75C3206F'/>
+</Galaxy.Workflow.Pool>
+<XSD1.XsdComplexTypeDefinition m:c='2' m:i='E0E1B8C64753C180D33411EAB0CC54EE75C3206F' attributes='E0E1B8C6475EC04BD33411EA8EC454EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='TextVariables' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdParticle m:c='2' m:i='E0E1B8C6475828A7D33411EA924B54EE75C3206F' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdModelGroup m:c='2' m:i='E0E1B8C6475C1CF0D33411EA9F4554EE75C3206F' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E1B8C6475DE9BED33411EAB5FA54EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='TextVariables' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E0E1B8C6475EC04BD33411EA8EC454EE75C3206F' namespace='http://sap.com/esm/ui/ext' name='hiddenInTree'/>
+<XSD1.dom.DomText m:c='2' m:i='E0E1B8C6475F8D80D33411EABED954EE75C3206F' data=''/>
+<Galaxy.Workflow.TextVariable m:c='1' m:i='E0E1B8C6476420C8D33411EAAE7D54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables' resType='generaltext' translate='false' transUnitId='4764E412D33411EAB69354EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='4764E413D33411EA91A154EE75C3206F'/>
+</Galaxy.Workflow.TextVariable>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C64766B318D33411EAB34B54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='TextVariables_Mapping' resType='generaltext' translate='false' transUnitId='476721C2D33411EA8FC754EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='47676299D33411EACD3754EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647680773D33411EAB12054EE75C3206F' category='merge' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C64768FE4AD33411EAB7E754EE75C3206F'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E1B8C6476DA6DDD33411EABF6C54EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='ProcessInstanceAttributes' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.DataObject m:c='1' m:i='E0E1B8C6476DD9C0D33411EABB1854EE75C3206F' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='ProcessInstanceAttributes' resType='generaltext' translate='false' transUnitId='476EA1C3D33411EA8B2B54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='476ECB42D33411EA97DC54EE75C3206F'/>
+</Galaxy.Workflow.DataObject>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E1B8C64771231AD33411EAA5B154EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='Administrators' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.ProcessRole m:c='1' m:i='E0E1B8C6477285DED33411EACB5854EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators' resType='generaltext' translate='false' transUnitId='477399BFD33411EABD8954EE75C3206F'/>
+<documentation maxWidth='16380' originalText='Role for Admins' resType='description' translate='false' transUnitId='4773B82BD33411EAA8B654EE75C3206F'/>
+</Galaxy.Workflow.ProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C647742D13D33411EA8CBA54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Administrators_Mapping' resType='generaltext' translate='false' transUnitId='47742D14D33411EA9BD054EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='47742D15D33411EAA3D554EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647745695D33411EAA12854EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647746088D33411EACA4254EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647755C18D33411EABFC654EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6477685DAD33411EAB59254EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C64776BFF9D33411EA952254EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647771365D33411EA8BCA54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647771E2ED33411EA95D754EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647779042D33411EA860254EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C64777F25BD33411EAC1E354EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C64779C3C9D33411EAA9B354EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6477A3978D33411EAB9E754EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6477A5D95D33411EA9B1E54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6477B1EB7D33411EA883E54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6477B81B5D33411EA9EB954EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6477BCFC4D33411EA898B54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6477C097FD33411EA96C254EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6477C6B9ED33411EAB38F54EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6477C863AD33411EA8C9454EE75C3206F'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647CB261FD33411EAC1A554EE75C3206F' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0E1B8C647D4EAEBD33411EA87A054EE75C3206F'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C647D56A85D33411EA9D0754EE75C3206F' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C647D5D614D33411EA91E154EE75C3206F'/>
+<Galaxy.Workflow.Lane m:c='1' m:i='E0E1B8C647D8BC63D33411EAB26054EE75C3206F' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='test_Proc' resType='generaltext' translate='false' transUnitId='47D95FB8D33411EA8F3A54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='47D98123D33411EAAB1054EE75C3206F'/>
+</Galaxy.Workflow.Lane>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E1B8C647DB6EF3D33411EAC1F854EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='test_Proc_PotentialOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0E1B8C647DC4E09D33411EA875B54EE75C3206F' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='test_Proc_PotentialOwners' resType='generaltext' translate='false' transUnitId='47DD2B79D33411EA8B7054EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='47DD2B7AD33411EAA2AD54EE75C3206F'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C647DD961ED33411EAA66554EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Default_PotentialOwners_Mapping' resType='generaltext' translate='false' transUnitId='47DD961FD33411EAC9ED54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='47DD9620D33411EA991954EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DD9621D33411EAB52754EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647DDB62BD33411EAC4CC54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DDF97BD33411EACA5554EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647DE528DD33411EACF6754EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647DEBBF6D33411EA81E854EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DEBBF7D33411EA902654EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647DF124DD33411EA96BE54EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C647DF124ED33411EAB85B54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DF6F6CD33411EA9E5B54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647DF7DF7D33411EA843C54EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C647DFC064D33411EAB89554EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647E052DFD33411EAB82654EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647E0D94DD33411EA804E54EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C647E0F5C9D33411EAAE2F54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C647E13004D33411EAC24454EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C647E17162D33411EAA4FE54EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C647E177D2D33411EA88C954EE75C3206F'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C648049F94D33411EA9F1C54EE75C3206F' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0E1B8C64804F01DD33411EAB45254EE75C3206F'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C648050FF2D33411EA8DEE54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C648055229D33411EA836954EE75C3206F'/>
+<XSD1.XsdElementDeclaration m:c='2' m:i='E0E1B8C6480799C3D33411EA912A54EE75C3206F' namespace='demo.sap.com/fero_test/test_Proc/test_Proc' name='test_Proc_ExcludedOwners' form='unqualified' nillable='false' isAbstract='false'/>
+<Galaxy.Workflow.LaneProcessRole m:c='1' m:i='E0E1B8C648079EB6D33411EAC9B654EE75C3206F' nameTranslatable='false' documentationTranslatable='false' dynamic='false'>
+<name maxWidth='255' originalText='test_Proc_ExcludedOwners' resType='generaltext' translate='false' transUnitId='48079EB7D33411EA8A7654EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='48079EB8D33411EA8D3654EE75C3206F'/>
+</Galaxy.Workflow.LaneProcessRole>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C64807E3F4D33411EABEAE54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Default_ExcludedOwners_Mapping' resType='generaltext' translate='false' transUnitId='4807F5F7D33411EACEBE54EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='4807F5F8D33411EA9D4954EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C64807F5F9D33411EA807A54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C64808347FD33411EAC70D54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6480885E9D33411EA968354EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C64808C9C4D33411EAC83F54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C64808F2CCD33411EACF4754EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6480937A4D33411EAC1C254EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C648096E6AD33411EAAE2954EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C648099E33D33411EAA2A654EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C64809D802D33411EA90EE54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6480A1808D33411EACF7E54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6480A6A39D33411EA92BF54EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6480A9E86D33411EAA72854EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6480ACD0CD33411EA811254EE75C3206F' category='set' enabled='false' expander='currentNode' transformer='getValue'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6480B2336D33411EA901D54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6480B9316D33411EAC6EE54EE75C3206F' stringExpression='#generated=true#principalId'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6480B9F9BD33411EAC0FD54EE75C3206F'/>
+<Galaxy.Mapping.MappingPart m:c='1' m:i='E0E1B8C6480C08B1D33411EA954A54EE75C3206F' category='merge' enabled='true' expander='currentNode' transformer='getValue'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6480C4E62D33411EA97AC54EE75C3206F' stringExpression='#generated=true#type'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6480C6D58D33411EAA21254EE75C3206F'/>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C6482A456CD33411EA8FA754EE75C3206F' stringExpression=''/>
+<Galaxy.Rule.FunctionInvocation m:c='1' m:i='E0E1B8C6482A706BD33411EAB1A854EE75C3206F'/>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C6482A9F63D33411EA909D54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'/>
+<Galaxy.Rule.Reference m:c='1' m:i='E0E1B8C6482AD87FD33411EAB8E754EE75C3206F'/>
+<Galaxy.Workflow.StartEvent m:c='1' m:i='E0E1B8C64844DB10D33411EAA45254EE75C3206F' nameTranslatable='true' documentationTranslatable='true'>
+<name maxWidth='255' originalText='Start' resType='generaltext' translate='false' transUnitId='4845D3A7D33411EA97C454EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='484607E3D33411EA92B054EE75C3206F'/>
+</Galaxy.Workflow.StartEvent>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C64847F34FD33411EAB82454EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='Start_OutputMapping' resType='generaltext' translate='false' transUnitId='484801BFD33411EAB4D654EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Rule.Expression m:c='1' m:i='E0E1B8C648497966D33411EAC4E054EE75C3206F' stringExpression='true'/>
+<Galaxy.Rule.Literal m:c='1' m:i='E0E1B8C6484A55CCD33411EABD1D54EE75C3206F' value='true'/>
+<Galaxy.Workflow.EndEvent m:c='1' m:i='E0E1B8C6484B3686D33411EA809954EE75C3206F' nameTranslatable='true' documentationTranslatable='true' terminate='false'>
+<name maxWidth='255' originalText='End' resType='generaltext' translate='false' transUnitId='484C1311D33411EA801354EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='true' transUnitId='484C28DED33411EA802454EE75C3206F'/>
+</Galaxy.Workflow.EndEvent>
+<Galaxy.Mapping.Mapping m:c='1' m:i='E0E1B8C6484C7D2ED33411EA998D54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='End_InputMapping' resType='generaltext' translate='false' transUnitId='484C7D2FD33411EA8BA054EE75C3206F'/>
+</Galaxy.Mapping.Mapping>
+<Galaxy.Workflow.SequenceConnector m:c='1' m:i='E0E1B8C6484CEE4CD33411EA83AD54EE75C3206F' nameTranslatable='false' documentationTranslatable='false'>
+<name maxWidth='255' originalText='' resType='generaltext' translate='false' transUnitId='484DB829D33411EAB64854EE75C3206F'/>
+<documentation maxWidth='16380' originalText='' resType='description' translate='false' transUnitId='484DB82AD33411EACED454EE75C3206F'/>
+</Galaxy.Workflow.SequenceConnector>
+<XSD1.TypeDefinitionForElementDeclaration c='2'>
+<L f='E0E14F865761AF36D33411EAC6BE54EE75C3206F' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E0E1B8C6475DE9BED33411EAB5FA54EE75C3206F' s='E0E1B8C64753C180D33411EAB0CC54EE75C3206F'/>
+<L f='E0E1B8C6476DA6DDD33411EABF6C54EE75C3206F' s='local:E02C978BF5A4C4FAE11511DFC9DB0019993BA185'/>
+<L f='E0E1B8C64771231AD33411EAA5B154EE75C3206F' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0E1B8C647DB6EF3D33411EAC1F854EE75C3206F' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+<L f='E0E1B8C6480799C3D33411EA912A54EE75C3206F' s='local:481F3B278F75A6601AC311DDBFB00018717335EB'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.dom.ChildsOfDomNode c='2'>
+<L f='E0E1B8C6475F8D80D33411EABED954EE75C3206F' s='E0E1B8C6475EC04BD33411EA8EC454EE75C3206F'/>
+</XSD1.dom.ChildsOfDomNode>
+<XSD1.ContentForParticle c='2'>
+<L f='E0E1B8C6475828A7D33411EA924B54EE75C3206F' s='E0E1B8C6475C1CF0D33411EA9F4554EE75C3206F'/>
+</XSD1.ContentForParticle>
+<XSD1.ContentForComplexTypeDefinition c='2'>
+<L f='E0E1B8C64753C180D33411EAB0CC54EE75C3206F' s='E0E1B8C6475828A7D33411EA924B54EE75C3206F'/>
+</XSD1.ContentForComplexTypeDefinition>
+<XSD1.BaseTypeDefinitionForComplexTypeDefinition c='2'>
+<L f='E0E1B8C64753C180D33411EAB0CC54EE75C3206F' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+</XSD1.BaseTypeDefinitionForComplexTypeDefinition>
+<Galaxy.Workflow.SourceOfIncomingConnectors c='1'>
+<L f='E0E14F865BF89E6BD33411EAA7C554EE75C3206F' s='E0E14F865C05F9E1D33411EAB31F54EE75C3206F'/>
+<L f='E0E1B8C64844DB10D33411EAA45254EE75C3206F' s='E0E1B8C6484CEE4CD33411EA83AD54EE75C3206F'/>
+</Galaxy.Workflow.SourceOfIncomingConnectors>
+<Galaxy.Workflow.TargetOfOutgoingConnectors c='1'>
+<L f='E0E14F865BF89E6BD33411EAA7C554EE75C3206F' s='E0E1B8C6484CEE4CD33411EA83AD54EE75C3206F'/>
+<L f='E0E1B8C6484B3686D33411EA809954EE75C3206F' s='E0E14F865C05F9E1D33411EAB31F54EE75C3206F'/>
+</Galaxy.Workflow.TargetOfOutgoingConnectors>
+<Galaxy.Workflow.InputMappingOfMappableObject c='1'>
+<L f='E0E14F865BFA584ED33411EAA6EA54EE75C3206F' s='E0E14F865BF89E6BD33411EAA7C554EE75C3206F'/>
+<L f='E0E1B8C6484C7D2ED33411EA998D54EE75C3206F' s='E0E1B8C6484B3686D33411EA809954EE75C3206F'/>
+</Galaxy.Workflow.InputMappingOfMappableObject>
+<Galaxy.Workflow.OutputMappingOfMappableObject c='1'>
+<L f='E0E14F865BFA83F5D33411EAC6CE54EE75C3206F' s='E0E14F865BF89E6BD33411EAA7C554EE75C3206F'/>
+<L f='E0E1B8C64847F34FD33411EAB82454EE75C3206F' s='E0E1B8C64844DB10D33411EAA45254EE75C3206F'/>
+</Galaxy.Workflow.OutputMappingOfMappableObject>
+<Galaxy.Mapping.MappingContainsMappingParts c='1'>
+<L f='E0E14F86716303D0D33411EAB23A54EE75C3206F' s='E0E14F865BFA83F5D33411EAC6CE54EE75C3206F'/>
+<L f='E0E1B8C647680773D33411EAB12054EE75C3206F' s='E0E1B8C64766B318D33411EAB34B54EE75C3206F'/>
+<L f='E0E1B8C647745695D33411EAA12854EE75C3206F' s='E0E1B8C647742D13D33411EA8CBA54EE75C3206F'/>
+<L f='E0E1B8C647DD9621D33411EAB52754EE75C3206F' s='E0E1B8C647DD961ED33411EAA66554EE75C3206F'/>
+<L f='E0E1B8C64807F5F9D33411EA807A54EE75C3206F' s='E0E1B8C64807E3F4D33411EABEAE54EE75C3206F'/>
+</Galaxy.Mapping.MappingContainsMappingParts>
+<Galaxy.Mapping.MappingPartContainsExpression c='1'>
+<L f='E0E14F8671641264D33411EA99A154EE75C3206F' s='E0E14F86716303D0D33411EAB23A54EE75C3206F'/>
+<L f='E0E1B8C64768FE4AD33411EAB7E754EE75C3206F' s='E0E1B8C647680773D33411EAB12054EE75C3206F'/>
+<L f='E0E1B8C647746088D33411EACA4254EE75C3206F' s='E0E1B8C647745695D33411EAA12854EE75C3206F'/>
+<L f='E0E1B8C6477685DAD33411EAB59254EE75C3206F' s='E0E1B8C647755C18D33411EABFC654EE75C3206F'/>
+<L f='E0E1B8C647771365D33411EA8BCA54EE75C3206F' s='E0E1B8C64776BFF9D33411EA952254EE75C3206F'/>
+<L f='E0E1B8C647779042D33411EA860254EE75C3206F' s='E0E1B8C647771E2ED33411EA95D754EE75C3206F'/>
+<L f='E0E1B8C6477A3978D33411EAB9E754EE75C3206F' s='E0E1B8C64779C3C9D33411EAA9B354EE75C3206F'/>
+<L f='E0E1B8C647CB261FD33411EAC1A554EE75C3206F' s='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F'/>
+<L f='E0E1B8C6477B81B5D33411EA9EB954EE75C3206F' s='E0E1B8C6477B1EB7D33411EA883E54EE75C3206F'/>
+<L f='E0E1B8C6477C6B9ED33411EAB38F54EE75C3206F' s='E0E1B8C6477C097FD33411EA96C254EE75C3206F'/>
+<L f='E0E1B8C647DDB62BD33411EAC4CC54EE75C3206F' s='E0E1B8C647DD9621D33411EAB52754EE75C3206F'/>
+<L f='E0E1B8C647DE528DD33411EACF6754EE75C3206F' s='E0E1B8C647DDF97BD33411EACA5554EE75C3206F'/>
+<L f='E0E1B8C647DEBBF6D33411EA81E854EE75C3206F' s='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F'/>
+<L f='E0E1B8C647DF124DD33411EA96BE54EE75C3206F' s='E0E1B8C647DEBBF7D33411EA902654EE75C3206F'/>
+<L f='E0E1B8C647DF7DF7D33411EA843C54EE75C3206F' s='E0E1B8C647DF6F6CD33411EA9E5B54EE75C3206F'/>
+<L f='E0E1B8C648049F94D33411EA9F1C54EE75C3206F' s='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F'/>
+<L f='E0E1B8C647E0D94DD33411EA804E54EE75C3206F' s='E0E1B8C647E052DFD33411EAB82654EE75C3206F'/>
+<L f='E0E1B8C647E17162D33411EAA4FE54EE75C3206F' s='E0E1B8C647E13004D33411EAC24454EE75C3206F'/>
+<L f='E0E1B8C64808347FD33411EAC70D54EE75C3206F' s='E0E1B8C64807F5F9D33411EA807A54EE75C3206F'/>
+<L f='E0E1B8C64808C9C4D33411EAC83F54EE75C3206F' s='E0E1B8C6480885E9D33411EA968354EE75C3206F'/>
+<L f='E0E1B8C6480937A4D33411EAC1C254EE75C3206F' s='E0E1B8C64808F2CCD33411EACF4754EE75C3206F'/>
+<L f='E0E1B8C648099E33D33411EAA2A654EE75C3206F' s='E0E1B8C648096E6AD33411EAAE2954EE75C3206F'/>
+<L f='E0E1B8C6480A6A39D33411EA92BF54EE75C3206F' s='E0E1B8C6480A1808D33411EACF7E54EE75C3206F'/>
+<L f='E0E1B8C6482A456CD33411EA8FA754EE75C3206F' s='E0E1B8C6480ACD0CD33411EA811254EE75C3206F'/>
+<L f='E0E1B8C6480B9316D33411EAC6EE54EE75C3206F' s='E0E1B8C6480B2336D33411EA901D54EE75C3206F'/>
+<L f='E0E1B8C6480C4E62D33411EA97AC54EE75C3206F' s='E0E1B8C6480C08B1D33411EA954A54EE75C3206F'/>
+</Galaxy.Mapping.MappingPartContainsExpression>
+<Galaxy.Mapping.MappingPartHasChildren c='1'>
+<L f='E0E1B8C647755C18D33411EABFC654EE75C3206F' s='E0E1B8C647745695D33411EAA12854EE75C3206F'/>
+<L f='E0E1B8C64776BFF9D33411EA952254EE75C3206F' s='E0E1B8C647745695D33411EAA12854EE75C3206F'/>
+<L f='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F' s='E0E1B8C647745695D33411EAA12854EE75C3206F'/>
+<L f='E0E1B8C647771E2ED33411EA95D754EE75C3206F' s='E0E1B8C64776BFF9D33411EA952254EE75C3206F'/>
+<L f='E0E1B8C64779C3C9D33411EAA9B354EE75C3206F' s='E0E1B8C64776BFF9D33411EA952254EE75C3206F'/>
+<L f='E0E1B8C6477B1EB7D33411EA883E54EE75C3206F' s='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F'/>
+<L f='E0E1B8C6477C097FD33411EA96C254EE75C3206F' s='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F'/>
+<L f='E0E1B8C647DDF97BD33411EACA5554EE75C3206F' s='E0E1B8C647DD9621D33411EAB52754EE75C3206F'/>
+<L f='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F' s='E0E1B8C647DD9621D33411EAB52754EE75C3206F'/>
+<L f='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F' s='E0E1B8C647DD9621D33411EAB52754EE75C3206F'/>
+<L f='E0E1B8C647DEBBF7D33411EA902654EE75C3206F' s='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F'/>
+<L f='E0E1B8C647DF6F6CD33411EA9E5B54EE75C3206F' s='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F'/>
+<L f='E0E1B8C647E052DFD33411EAB82654EE75C3206F' s='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F'/>
+<L f='E0E1B8C647E13004D33411EAC24454EE75C3206F' s='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F'/>
+<L f='E0E1B8C6480885E9D33411EA968354EE75C3206F' s='E0E1B8C64807F5F9D33411EA807A54EE75C3206F'/>
+<L f='E0E1B8C64808F2CCD33411EACF4754EE75C3206F' s='E0E1B8C64807F5F9D33411EA807A54EE75C3206F'/>
+<L f='E0E1B8C6480ACD0CD33411EA811254EE75C3206F' s='E0E1B8C64807F5F9D33411EA807A54EE75C3206F'/>
+<L f='E0E1B8C648096E6AD33411EAAE2954EE75C3206F' s='E0E1B8C64808F2CCD33411EACF4754EE75C3206F'/>
+<L f='E0E1B8C6480A1808D33411EACF7E54EE75C3206F' s='E0E1B8C64808F2CCD33411EACF4754EE75C3206F'/>
+<L f='E0E1B8C6480B2336D33411EA901D54EE75C3206F' s='E0E1B8C6480ACD0CD33411EA811254EE75C3206F'/>
+<L f='E0E1B8C6480C08B1D33411EA954A54EE75C3206F' s='E0E1B8C6480ACD0CD33411EA811254EE75C3206F'/>
+</Galaxy.Mapping.MappingPartHasChildren>
+<Galaxy.Mapping.MappingPartHasTarget c='1'>
+<L f='E0E14F865761AF36D33411EAC6BE54EE75C3206F' s='E0E14F86716303D0D33411EAB23A54EE75C3206F'/>
+<L f='E0E1B8C6475DE9BED33411EAB5FA54EE75C3206F' s='E0E1B8C647680773D33411EAB12054EE75C3206F'/>
+<L f='E0E1B8C64771231AD33411EAA5B154EE75C3206F' s='E0E1B8C647745695D33411EAA12854EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C647755C18D33411EABFC654EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C64776BFF9D33411EA952254EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C647771E2ED33411EA95D754EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C64779C3C9D33411EAA9B354EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C6477ABE8FD33411EA8BCF54EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C6477B1EB7D33411EA883E54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6477C097FD33411EA96C254EE75C3206F'/>
+<L f='E0E1B8C647DB6EF3D33411EAC1F854EE75C3206F' s='E0E1B8C647DD9621D33411EAB52754EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C647DDF97BD33411EACA5554EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C647DE8EB4D33411EAC0C954EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C647DEBBF7D33411EA902654EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C647DF6F6CD33411EA9E5B54EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C647DFCF34D33411EA9F0254EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C647E052DFD33411EAB82654EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C647E13004D33411EAC24454EE75C3206F'/>
+<L f='E0E1B8C6480799C3D33411EA912A54EE75C3206F' s='E0E1B8C64807F5F9D33411EA807A54EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C6480885E9D33411EA968354EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C64808F2CCD33411EACF4754EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C648096E6AD33411EAAE2954EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6480A1808D33411EACF7E54EE75C3206F'/>
+<L f='local:481F3B278F75A6621AC311DDBD950018717335EB' s='E0E1B8C6480ACD0CD33411EA811254EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C6480B2336D33411EA901D54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6480C08B1D33411EA954A54EE75C3206F'/>
+</Galaxy.Mapping.MappingPartHasTarget>
+<Galaxy.Rule.LiteralHasSimpleDataType c='1'>
+<L f='local:4743E046A4700C52980411DCADE30011252E548A' s='E0E14F8671653375D33411EABA0754EE75C3206F'/>
+<L f='local:4743E048A5B22940980411DC83220011252E548A' s='E0E1B8C6484A55CCD33411EABD1D54EE75C3206F'/>
+</Galaxy.Rule.LiteralHasSimpleDataType>
+<Galaxy.Rule.ExpressionHasSteps c='1'>
+<L f='E0E14F8671653375D33411EABA0754EE75C3206F' s='E0E14F8671641264D33411EA99A154EE75C3206F'/>
+<L f='E0E1B8C64777F25BD33411EAC1E354EE75C3206F' s='E0E1B8C647779042D33411EA860254EE75C3206F'/>
+<L f='E0E1B8C6477A5D95D33411EA9B1E54EE75C3206F' s='E0E1B8C6477A3978D33411EAB9E754EE75C3206F'/>
+<L f='E0E1B8C6477BCFC4D33411EA898B54EE75C3206F' s='E0E1B8C6477B81B5D33411EA9EB954EE75C3206F'/>
+<L f='E0E1B8C6477C863AD33411EA8C9454EE75C3206F' s='E0E1B8C6477C6B9ED33411EAB38F54EE75C3206F'/>
+<L f='E0E1B8C647D4EAEBD33411EA87A054EE75C3206F' s='E0E1B8C647CB261FD33411EAC1A554EE75C3206F'/>
+<L f='E0E1B8C647D5D614D33411EA91E154EE75C3206F' s='E0E1B8C647CB261FD33411EAC1A554EE75C3206F'/>
+<L f='E0E1B8C647DF124ED33411EAB85B54EE75C3206F' s='E0E1B8C647DF124DD33411EA96BE54EE75C3206F'/>
+<L f='E0E1B8C647DFC064D33411EAB89554EE75C3206F' s='E0E1B8C647DF7DF7D33411EA843C54EE75C3206F'/>
+<L f='E0E1B8C647E0F5C9D33411EAAE2F54EE75C3206F' s='E0E1B8C647E0D94DD33411EA804E54EE75C3206F'/>
+<L f='E0E1B8C647E177D2D33411EA88C954EE75C3206F' s='E0E1B8C647E17162D33411EAA4FE54EE75C3206F'/>
+<L f='E0E1B8C64804F01DD33411EAB45254EE75C3206F' s='E0E1B8C648049F94D33411EA9F1C54EE75C3206F'/>
+<L f='E0E1B8C648055229D33411EA836954EE75C3206F' s='E0E1B8C648049F94D33411EA9F1C54EE75C3206F'/>
+<L f='E0E1B8C64809D802D33411EA90EE54EE75C3206F' s='E0E1B8C648099E33D33411EAA2A654EE75C3206F'/>
+<L f='E0E1B8C6480A9E86D33411EAA72854EE75C3206F' s='E0E1B8C6480A6A39D33411EA92BF54EE75C3206F'/>
+<L f='E0E1B8C6480B9F9BD33411EAC0FD54EE75C3206F' s='E0E1B8C6480B9316D33411EAC6EE54EE75C3206F'/>
+<L f='E0E1B8C6480C6D58D33411EAA21254EE75C3206F' s='E0E1B8C6480C4E62D33411EA97AC54EE75C3206F'/>
+<L f='E0E1B8C6482A706BD33411EAB1A854EE75C3206F' s='E0E1B8C6482A456CD33411EA8FA754EE75C3206F'/>
+<L f='E0E1B8C6482AD87FD33411EAB8E754EE75C3206F' s='E0E1B8C6482A456CD33411EA8FA754EE75C3206F'/>
+<L f='E0E1B8C6484A55CCD33411EABD1D54EE75C3206F' s='E0E1B8C648497966D33411EAC4E054EE75C3206F'/>
+</Galaxy.Rule.ExpressionHasSteps>
+<Galaxy.Rule.ReferencePointToXsdFeature c='1'>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C64777F25BD33411EAC1E354EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6477A5D95D33411EA9B1E54EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C6477BCFC4D33411EA898B54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6477C863AD33411EA8C9454EE75C3206F'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0E1B8C647D5D614D33411EA91E154EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C647DF124ED33411EAB85B54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C647DFC064D33411EAB89554EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C647E0F5C9D33411EAAE2F54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C647E177D2D33411EA88C954EE75C3206F'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0E1B8C648055229D33411EA836954EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C64809D802D33411EA90EE54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6480A9E86D33411EAA72854EE75C3206F'/>
+<L f='local:481F3B278F32D1021AC311DDC2920018717335EB' s='E0E1B8C6480B9F9BD33411EAC0FD54EE75C3206F'/>
+<L f='local:481F3B278F3542011AC311DDCCF20018717335EB' s='E0E1B8C6480C6D58D33411EAA21254EE75C3206F'/>
+<L f='local:481F3B33967D93A41AC311DDA9F50018717335EB' s='E0E1B8C6482AD87FD33411EAB8E754EE75C3206F'/>
+</Galaxy.Rule.ReferencePointToXsdFeature>
+<Galaxy.Rule.FunctionInvocationHasParameterMapping c='1'>
+<L f='E0E1B8C647D56A85D33411EA9D0754EE75C3206F' s='E0E1B8C647D4EAEBD33411EA87A054EE75C3206F'/>
+<L f='E0E1B8C648050FF2D33411EA8DEE54EE75C3206F' s='E0E1B8C64804F01DD33411EAB45254EE75C3206F'/>
+<L f='E0E1B8C6482A9F63D33411EA909D54EE75C3206F' s='E0E1B8C6482A706BD33411EAB1A854EE75C3206F'/>
+</Galaxy.Rule.FunctionInvocationHasParameterMapping>
+<Galaxy.Workflow.LaneHasScopeObjects c='1'>
+<L f='E0E14F86576163E5D33411EA9BF954EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+<L f='E0E14F865BF89E6BD33411EAA7C554EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+<L f='E0E1B8C647DC4E09D33411EA875B54EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+<L f='E0E1B8C648079EB6D33411EAC9B654EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+<L f='E0E1B8C64844DB10D33411EAA45254EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+<L f='E0E1B8C6484B3686D33411EA809954EE75C3206F' s='E0E1B8C647D8BC63D33411EAB26054EE75C3206F'/>
+</Galaxy.Workflow.LaneHasScopeObjects>
+<Galaxy.Workflow.ScopeContainsScopeObjects c='1'>
+<L f='E0E14F86576163E5D33411EA9BF954EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E14F865BF89E6BD33411EAA7C554EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E14F865C05F9E1D33411EAB31F54EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C6476420C8D33411EAAE7D54EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C6476DD9C0D33411EABB1854EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C6477285DED33411EACB5854EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C647D8BC63D33411EAB26054EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C647DC4E09D33411EA875B54EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C648079EB6D33411EAC9B654EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C64844DB10D33411EAA45254EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C6484B3686D33411EA809954EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+<L f='E0E1B8C6484CEE4CD33411EA83AD54EE75C3206F' s='E0E1B8C6474CFD2FD33411EA819754EE75C3206F'/>
+</Galaxy.Workflow.ScopeContainsScopeObjects>
+<Galaxy.Workflow.ViewContainsMapping c='1'>
+<L f='E0E1B8C64766B318D33411EAB34B54EE75C3206F' s='E0E1B8C6476420C8D33411EAAE7D54EE75C3206F'/>
+<L f='E0E1B8C647742D13D33411EA8CBA54EE75C3206F' s='E0E1B8C6477285DED33411EACB5854EE75C3206F'/>
+<L f='E0E1B8C647DD961ED33411EAA66554EE75C3206F' s='E0E1B8C647DC4E09D33411EA875B54EE75C3206F'/>
+<L f='E0E1B8C64807E3F4D33411EABEAE54EE75C3206F' s='E0E1B8C648079EB6D33411EAC9B654EE75C3206F'/>
+</Galaxy.Workflow.ViewContainsMapping>
+<Galaxy.Workflow.CollaborationContainsPools c='1'>
+<L f='E0E1B8C6474CFD2FD33411EA819754EE75C3206F' s='E0E1B8C6474B821FD33411EAC76954EE75C3206F'/>
+</Galaxy.Workflow.CollaborationContainsPools>
+<Galaxy.Workflow.CatchEventContainsExpression c='1'>
+<L f='E0E1B8C64844DB10D33411EAA45254EE75C3206F' s='E0E1B8C648497966D33411EAC4E054EE75C3206F'/>
+</Galaxy.Workflow.CatchEventContainsExpression>
+<Galaxy.Rule.FunctionInvocationHasFunctionInterface c='1'>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0E1B8C647D4EAEBD33411EA87A054EE75C3206F'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0E1B8C64804F01DD33411EAB45254EE75C3206F'/>
+<L f='local:481F3B33967D93A01AC311DDCFD20018717335EB' s='E0E1B8C6482A706BD33411EAB1A854EE75C3206F'/>
+</Galaxy.Rule.FunctionInvocationHasFunctionInterface>
+<Galaxy.Workflow.ThrowEventHasResult c='1'>
+<L f='local:E046953045539E91D33411EA998B54EE75C3206F' s='E0E1B8C6484B3686D33411EA809954EE75C3206F'/>
+</Galaxy.Workflow.ThrowEventHasResult>
+<Galaxy.Workflow.CatchEventHasTrigger c='1'>
+<L f='local:E046953045539E91D33411EA998B54EE75C3206F' s='E0E1B8C64844DB10D33411EAA45254EE75C3206F'/>
+</Galaxy.Workflow.CatchEventHasTrigger>
+<Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration c='1'>
+<L f='E0E14F865761AF36D33411EAC6BE54EE75C3206F' s='E0E14F86576163E5D33411EA9BF954EE75C3206F'/>
+<L f='E0E1B8C6475DE9BED33411EAB5FA54EE75C3206F' s='E0E1B8C6476420C8D33411EAAE7D54EE75C3206F'/>
+<L f='E0E1B8C6476DA6DDD33411EABF6C54EE75C3206F' s='E0E1B8C6476DD9C0D33411EABB1854EE75C3206F'/>
+<L f='E0E1B8C64771231AD33411EAA5B154EE75C3206F' s='E0E1B8C6477285DED33411EACB5854EE75C3206F'/>
+<L f='E0E1B8C647DB6EF3D33411EAC1F854EE75C3206F' s='E0E1B8C647DC4E09D33411EA875B54EE75C3206F'/>
+<L f='E0E1B8C6480799C3D33411EA912A54EE75C3206F' s='E0E1B8C648079EB6D33411EAC9B654EE75C3206F'/>
+</Galaxy.Workflow.DataContainerReferencesXsdElementDeclaration>
+<Galaxy.Mapping.MappingContainsNamespacePrefixes c='1'>
+<L f='E0E14F86716295F3D33411EACED854EE75C3206F' s='E0E14F865BFA83F5D33411EAC6CE54EE75C3206F'/>
+</Galaxy.Mapping.MappingContainsNamespacePrefixes>
+<Galaxy.Mapping.MappingPartContainsConfiguration c='1'>
+<L f='E0E14F867164DF18D33411EAA1F054EE75C3206F' s='E0E14F86716303D0D33411EAB23A54EE75C3206F'/>
+</Galaxy.Mapping.MappingPartContainsConfiguration>
+<Galaxy.Mapping.MappingPartHasQName c='1'>
+<L f='E0E14F8671636EDBD33411EAC65054EE75C3206F' s='E0E14F86716303D0D33411EAB23A54EE75C3206F'/>
+</Galaxy.Mapping.MappingPartHasQName>
+</Partition>
