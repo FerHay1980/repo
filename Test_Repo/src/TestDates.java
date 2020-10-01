@@ -25,13 +25,7 @@ public class TestDates {
         	//Change Has been Applied
         	
         }
-        try{
-        	throw new Exception("Tintiri Mintiri");
-        	//int i = 1/0;
-        }
-        catch(Exception e){
-        	e.printStackTrace();
-        }
+        
         
 	}
 	
