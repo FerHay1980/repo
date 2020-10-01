@@ -22,7 +22,7 @@ public class TestDates {
         	System.out.println("From: " + dateFrom + " To: " +  dateTo);
         	dateFrom.setTime(dateFrom.getTime() + 120000);
         	dateTo.setTime(dateTo.getTime() + 120000);
-        	//The change to be tracked
+        	//Change Has been Applied
         	
         }
         try{
