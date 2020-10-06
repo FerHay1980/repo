@@ -12,12 +12,7 @@ public class TestDates {
         Date dateFrom = startDate;
         Date dateTo = addMinutesToDate(dateFrom,2);
         Date endDate = dateFormatter.parse("2020-08-04T13:50:00");
-//		  Date startDate = dateFormatter.parse("2020-08-04T13:36:00");
-//          Date endDate = dateFormatter.parse("2020-08-04T13:50:00");
-//          Date temp = startDate;
-//          Date dateFrom = startDate;
-//          Date dateTo = startDate;
-//          dateTo.setTime(temp.getTime() + 120000);
+
         while(endDate.compareTo(dateTo) >= 0 ){
         	System.out.println("From: " + dateFrom + " To: " +  dateTo);
         	dateFrom.setTime(dateFrom.getTime() + 120000);
